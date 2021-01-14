@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 206px;
+  height: 101px;
+  object-fit: contain;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 674px;
+  height: 28px;
+}
+
+.header {
+  display: flex;
+  width: 99vw;
+  height: 155px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 0 6.25vw 0 6.25vw;
+}
+
+.header_link {
+  font-family: Montserrat;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #252b42;
+  font-weight: 600;
+}
+
+.header_link:hover {
+  color: #fa4a0c;
+}
+
+.main_content {
+  height: 619px;
+  background: url(./image/main-content-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 676px;
+}
+
+.main-content-up {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  margin-bottom: 17px;
+}
+.main-content-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.main-content-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #fff;
+  margin-bottom: 56px;
+}
+.main-content__btn {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+  min-width: 236px;
+  height: 68px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content__btn:hover {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+}
+
+.main-content__btn-transparent {
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+}
+
+.main-content__btn-transparent:hover {
+  background-color: #fa4a0c;
+  border: none;
+}
+
+.buttonwrapper {
+  display: flex;
+  gap: 34px;
+}
+
+.callmemaybe {
+  position: absolute;
+  top: 379px;
+  left: 32%;
+}
+
+.main-content2 {
+  height: 2305px;
+  width: 99vw;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.AppWork {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.content-wrapper {
+  display: flex;
+  gap: 171px;
+  width: 100vw;
+  height: 806.99px;
+  justify-content: center;
+  align-items: center;
+}
+.text-wrapper {
+  width: 568px;
+  height: 280px;
+}
+.login {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+  margin-bottom: 17px;
+}
+.container-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 27px;
+}
+.container-desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.login-pic {
+  object-fit: contain;
+}
+
+.reverse {
+  flex-flow: row-reverse;
+}
+
+.download {
+  height: 700px;
+  background: url(./image/download-img.png) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.download-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.download-desc {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.download-button {
+  min-width: 142px;
+  min-height: 64px;
+  background: #fa4a0c;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.transparent {
+  min-width: 173px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #fff;
+}
+
+.download-wrapper {
+  display: flex;
+  gap: 34px;
+}
+
+.copyright {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
+
+.footerlogo {
+  width: 246px;
+  height: 102px;
+}
+.footer {
+  height: 223px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13vw 0 13vw;
+}
+.logo-link {
+  width: 160px;
+  height: 33px;
+  list-style: none;
+  display: flex;
+}
+.twitter {
+  width: 33px;
+  height: 27px;
+  background: url(./image/twitter.svg) center no-repeat;
+  background-size: contain;
+  display: block;
+}
+.facebook {
+  background: url(./image/facebook.svg) center no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 27px;
+  display: block;
+}
+.instagram {
+  background: url(./image/instagram.svg) center no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 27px;
+  display: block;
+}
+
+.footer-link {
+  display: block;
+}
